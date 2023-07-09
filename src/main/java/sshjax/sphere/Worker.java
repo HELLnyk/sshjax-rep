@@ -36,11 +36,11 @@ public class Worker {
     }
 
 
-    private static class CenterPoint {
+    public static class CenterPoint {
         private final int x;
         private final int y;
 
-        private CenterPoint() {
+        CenterPoint() {
             x = HEIGHT/2;
             y = WIDTH/2;
         }
